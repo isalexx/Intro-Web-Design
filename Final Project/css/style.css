@@ -1,0 +1,451 @@
+body
+{
+    /** remove the margin from the body **/
+    margin: 0px !important;
+    background-color:#16181a;
+    color: #e2e2e2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Giving the navigation color and a bigget font size */
+nav
+{
+    color: #e2e2e2;
+    font-size: 20px;
+}
+
+
+/* Creating the button which toggles the light theme */
+button 
+{
+    background-color: #2C2F33;
+    color: #e2e2e2;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border: none;
+}
+
+/* Editing the header, creating the NAV. */
+header
+{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+/* Title */
+header > article
+{
+  flex-grow: 1;
+  height: 80px;
+}
+
+header > nav > ul
+{
+  display: flex;
+  list-style: none;
+}
+
+header > nav > ul > li
+{
+  padding: 0px 10px;
+}
+
+header > nav > ul > li > a
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+header > nav > ul > li:hover > a
+{
+  color: #8d384e;
+}
+
+header
+{
+    display: flex;
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+/* Editing the main title */
+h1
+{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+/* Text on image styling */
+
+h2
+{
+  font-size: 75px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+/* Styling the header buttons */
+
+.button, .ThemeButton
+{
+  border: none;
+  cursor: pointer;
+  color: #e2e2e2;
+}
+
+.button:hover, .button:focus
+{
+  text-decoration: underline;
+}
+
+/* NAV IS OVER */
+
+/* MAIN PAGE BODY */
+
+/* Adjusting the first and third row as they are the same layout */
+.row-one
+{
+    display: flex;
+    background-image: url(../img/main-background.png);
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #16181a;
+}
+
+/* Spacer div */
+
+main > div
+{
+  height: 100px;
+}
+
+/* Styling the headers */
+
+h4, h5, h3
+{
+  text-align: center;
+  margin-bottom: -30px;
+  font-size: 45px;
+}
+
+/* Adding styling to second box */
+
+.row-two
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 2000px;
+  width: 95%;
+  background-color: #2C2F33;
+  margin: auto;
+}
+
+.row-two > div
+{
+  flex-direction: column;
+  display: flex;
+  height: 500px;
+  width: 90%;
+  background-color: #692d3d;
+  margin: auto;
+  border: solid 2px #16181a;
+  justify-content: space-around;
+}
+
+/* Editing the tables with images*/
+
+.product-table
+{
+  font-size: 30px;
+}
+
+.product-table > tr > td
+{
+  border: solid 2px #16181a;
+}
+
+/* MAIN PAGE DONE */
+
+/* ABOUT THE PRODUCT PAGE */
+
+/* Once again editing the boxes */
+
+.row-one-pg-2
+{
+    display: flex;
+    background-image: url(../img/background-two.jpg);
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #16181a;
+}
+
+.row-two-pg-2
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1250px;
+  width: 95%;
+  background-color: #2C2F33;
+  margin: auto;
+}
+
+.row-two-pg-2 > div
+{
+  flex-direction: column;
+  display: flex;
+  height: 1100px;
+  width: 90%;
+  background-color: #692d3d;
+  margin: auto;
+  border: solid 2px #16181a;
+  justify-content: space-around;
+}
+
+/* ABOUT THE PRODUCT PAGE DONE*/
+
+/* CONTACT US PAGE */
+
+.row-one-pg-3
+{
+    display: flex;
+    background-image: url(../img/background-three.jpg);
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #16181a;
+}
+
+.row-two-pg-3
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 800px;
+  width: 95%;
+  background-color: #2C2F33;
+  margin: auto;
+}
+
+.row-two-pg-3 > div
+{
+  flex-direction: column;
+  display: flex;
+  height: 700px;
+  width: 90%;
+  background-color: #354d6d;
+  margin: auto;
+  border: solid 2px #16181a;
+}
+
+.row-two-pg-3 > div > article > p
+{
+  text-align: center;
+  font-size: 20px;
+  margin-top: -75px;
+  
+}
+
+.row-two-pg-3 > div > div
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row-two-pg-3 > div > div > article:nth-child(1) > img
+{
+  height: auto;
+  width: 500px;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+
+.row-two-pg-3 > div > div > article:nth-child(2)
+{
+  width: 500px;
+  text-align: center;
+  padding-top: 75px;
+  padding-right: 80px;
+}
+
+/* Editing the way the text boxes look, making them nicer */
+
+textarea
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  outline: none;
+  resize: none;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid;
+  border-radius: 4px;
+  transition: 180ms box-shadow ease-in-out;
+}
+
+/* Editing the look of the button */
+
+input
+{
+  background-color: #73c0ff;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 16px 32px;
+  outline: none;
+  margin: 4px 2px;
+}
+
+/* Editing the title */
+
+h6
+{
+  text-align: center;
+  font-size: 40px;
+}
+
+/* CONTACT US PAGE DONE*/
+
+/* ABOUT US PAGE */
+
+.row-one-pg-4
+{
+    display: flex;
+    background-image: url(../img/background-four.jpg);
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #16181a;
+}
+
+.row-two-pg-4
+{
+    display: flex;
+    background-color: #692d3d;
+    height: 25%;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #16181a;
+}
+
+/* resizing images */
+
+.row-two-pg-4 > article:nth-child(1) > img
+{
+    padding: 40px;
+    height: auto;
+    width: 400px;
+}
+
+/* Editing the p tag */
+
+.row-two-pg-4 > article:nth-child(2) > p
+{
+    display: flex;
+    height: 200px;
+    width: 95%;
+    font-size: 25px;
+}
+
+
+/* ABOUT US PAGE DONE */
+
+
+/* This is the styling for the footer. */
+
+footer > div
+{
+    display: flex;
+    width: 95%;
+    height: 20px;
+}
+
+footer > section
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 95%;
+  height: 250px;
+  font-size: 40px;
+  color:  #e2e2e2;
+  background-color: #44222b;
+  margin: auto;
+  border: solid 2px #16181a;
+}
+
+footer > section > article:nth-child(1)
+{
+  display: flex;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer > section > article:nth-child(1) > img
+{
+  width: 40px;
+  height: auto;
+  padding: 5px;
+}
+
+footer > section > article:nth-child(1) > img:hover
+{
+  cursor: pointer;
+}
+
+footer > section > article:nth-child(2)
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+footer > section > article:nth-child(2) > p:nth-child(2)
+{
+  margin-top: -10px;
+}
+
+footer > section > article:nth-child(2) > p:nth-child(2):hover, footer > section > article:nth-child(2) > p:nth-child(1):hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer > section > article:nth-child(2) > p:nth-child(3)
+{
+  margin-top: -10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* FOOTER DONE */
